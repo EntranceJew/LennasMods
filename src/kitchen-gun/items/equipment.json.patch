@@ -1,0 +1,17 @@
+[
+  {
+    "op": "test",
+    "path": "/categories/equipment/17/id",
+    "value": "REVOLVER"
+  },
+  {
+    "op": "replace",
+    "path": "/categories/equipment/17/defaultMaxAmmo",
+    "value": 6
+  },
+  {
+    "op": "add",
+    "path": "/categories/equipment/17/replaces/-",
+    "value": "BULLET"
+  }
+]

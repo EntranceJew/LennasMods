@@ -1,0 +1,26 @@
+{
+    "name": "Retro Buttons",
+    "id": "retro-buttons",
+    "description": "Changes the color of UI buttons to be more familiar to old people.",
+    "mode": "8bit",
+    "advanceGraphics": false,
+
+    "author": "EntranceJew",
+    "authorWebsite": "https://twitter.com/EntranceJew",
+    "authors": [
+        {
+            "author": "EntranceJew",
+            "authorWebsite": "https://twitter.com/EntranceJew",
+            "authorRole": "Artist"
+        },
+        {
+            "author": "HammyHammerGuy",
+            "authorWebsite": "https://twitter.com/HammyHammerGuy",
+            "authorRole": "mod-icon Shrinker"
+        }
+    ],
+
+    "versionNumber": "1.0",
+
+    "enabled": true
+}

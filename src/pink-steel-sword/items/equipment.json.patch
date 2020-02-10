@@ -1,0 +1,27 @@
+[
+  {
+    "op": "test",
+    "path": "/categories/equipment/2/id",
+    "value": "STEEL_SWORD"
+  },
+  {
+    "op": "replace",
+    "path": "/categories/equipment/2/sprite/sheet",
+    "value": "items/pinksword"
+  },
+  {
+    "op": "replace",
+    "path": "/categories/equipment/2/sprite/row",
+    "value": 0
+  },
+  {
+    "op": "replace",
+    "path": "/categories/equipment/2/config/primaryAction/sprite/sheet",
+    "value": "items/pinksworduse"
+  },
+  {
+    "op": "replace",
+    "path": "/categories/equipment/2/config/secondaryAction/sprite/sheet",
+    "value": "items/pinksworduse"
+  }
+]

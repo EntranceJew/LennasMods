@@ -1,0 +1,15 @@
+{
+    "name": "Kitchen Gun Advance",
+    "id": "kitchen-gun-advance",
+    "description": "Provides 32bit graphics for `kitchen-gun`",
+    "mode": "32bit",
+    "advanceGraphics": true,
+
+    "author": "HammyHammerGuy",
+    "authorWebsite": "https://twitter.com/HammyHammerGuy",
+
+    "versionNumber": "1.0",
+    "requires": ["kitchen-gun"],
+
+    "enabled": true
+}

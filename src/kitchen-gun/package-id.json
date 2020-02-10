@@ -1,0 +1,13 @@
+{
+    "name": "Kitchen Gun",
+    "id": "kitchen-gun",
+    "description": "Makes seeds appear in your world that can be used to end someone's life immediately.",
+    "mode": "8bit",
+
+    "author": "EntranceJew",
+    "authorWebsite": "https://twitter.com/EntranceJew",
+
+    "versionNumber": "1.0",
+
+    "enabled": true
+}

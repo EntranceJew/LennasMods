@@ -1,0 +1,15 @@
+{
+    "name": "Clown School Advance",
+    "id": "clown-school-advance",
+    "description": "Makes heroes more daring and gives them a better sense of balance.",
+    "mode": "32bit",
+    "advanceGraphics": true,
+
+    "author": "EntranceJew",
+    "authorWebsite": "https://twitter.com/EntranceJew",
+
+    "versionNumber": "1.0",
+    "requires": ["clown-school"],
+
+    "enabled": true
+}

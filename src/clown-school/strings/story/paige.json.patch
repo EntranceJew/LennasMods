@@ -1,0 +1,17 @@
+[
+  {
+    "op": "test",
+    "path": "bicycle/0",
+    "value": "Hey! Feel free to borrow my bicycle!"
+  },
+  {
+    "op": "replace",
+    "path": "bicycle/0",
+    "value": "Hey! Feel free to borrow my unicycle!"
+  },
+  {
+    "op": "add",
+    "path": "bicycle/",
+    "value": "Honk honk!"
+  }
+]

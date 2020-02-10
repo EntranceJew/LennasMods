@@ -1,0 +1,16 @@
+{
+  "height": 16,
+  "directional": true,
+  "frames": {
+    "0": 1
+  },
+  "width": 16,
+  "drawOffset": [
+    -0.5,
+    -0.5
+  ],
+  "dialogueDrawOffset": [
+    -0.5,
+    -1.0
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "id": "even-stranger-cave",
+    "name": "Even Stranger Cave",
+    "description": "Puts a few familiar faces in the Strange Cave to fight.",
+
+    "author": "EntranceJew",
+    "authorWebsite": "https://twitter.com/EntranceJew",
+
+    "versionNumber": "1.0.0",
+    "enabled": true,
+}

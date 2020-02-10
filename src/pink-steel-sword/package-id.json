@@ -1,0 +1,12 @@
+{
+    "id": "pink-steel-sword",
+    "name": "Pink Steel Sword",
+    "description": "Makes it so that the Steel Sword is a vibrant shade of pink and purple.",
+    "mode": "8bit",
+    "advanceGraphics": false,
+
+    "author": "EntranceJew",
+    "authorWebsite": "https://twitter.com/EntranceJew",
+
+    "versionNumber": "1.0.0"
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "op": "add",
+    "path": "/categories/ammo/-",
+    "value": {
+      "id": "BULLET",
+      "name": "Bullet",
+      "charge": -1,
+      "script": ["net.bytten.inceptus.logic.item.ItemLogic", "ARROW"],
+      "sprite": {
+        "size": [0.5, 1.0],
+        "sheet": "bullet",
+        "direction": "n",
+        "row": 0,
+        "colors": ["0x000", "0x420", "0x444", "0x555"]
+      },
+      "requires": ["REVOLVER"],
+      "pickUpSound": "pickup_generic",
+      "config": {
+        "equipment": ["REVOLVER"]
+      }
+    }
+  }
+]

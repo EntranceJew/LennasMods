@@ -1,0 +1,12 @@
+[
+  {
+    "op": "test",
+    "path": "/categories/equipment/18/id",
+    "value": "MISSINGLASSES"
+  },
+  {
+    "op": "replace",
+    "path": "/categories/equipment/18/description",
+    "value": "#{glitch:true}Some cool sh#{color:p500}ades! Put them #{color:reset}on to view other dimensions!\n\n\n\n#{glitch:false}Use the unicycle if you get stuck!\nHonk!\n"
+  }
+]

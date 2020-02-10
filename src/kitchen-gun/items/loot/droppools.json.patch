@@ -1,0 +1,16 @@
+[
+  {
+    "op": "add",
+    "path": "/breakable/drops/-",
+    "value": [0.0005, {
+      "item": "BULLET"
+    }]
+  },
+  {
+    "op": "add",
+    "path": "/bombable/drops/-",
+    "value": [0.0005, {
+      "item": "BULLET"
+    }]
+  }
+]

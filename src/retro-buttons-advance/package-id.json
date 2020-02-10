@@ -1,0 +1,27 @@
+{
+    "name": "Retro Buttons Advance",
+    "id": "retro-buttons-advance",
+    "description": "Changes the color of UI 32bit buttons to be more familiar to old people.",
+    "mode": "32bit",
+    "advanceGraphics": true,
+
+    "author": "EntranceJew",
+    "authorWebsite": "https://twitter.com/EntranceJew",
+    "authors": [
+        {
+            "author": "EntranceJew",
+            "authorWebsite": "https://twitter.com/EntranceJew",
+            "authorRole": "Artist"
+        },
+        {
+            "author": "HammyHammerGuy",
+            "authorWebsite": "https://twitter.com/HammyHammerGuy",
+            "authorRole": "mod-icon Shrinker"
+        }
+    ],
+
+    "versionNumber": "1.0",
+    "requires": ["retro-buttons"],
+
+    "enabled": true
+}
