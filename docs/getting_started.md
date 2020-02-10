@@ -25,6 +25,12 @@ In order to get started modding Lenna's Inception, you'll need to view your loca
 ![img](imgs/browse_local_files.png)
 > right-click "Lenna's Inception" => manage => Browse local files
 
+If you got the game from the `itch.io` launcher, you can:
+![img](imgs/manage_itch.png)
+> right-click "Lenna's Inception" => Manage
+
+If you downloaded the game files from `itch.io` directly, open up where you extracted them to instead.
+
 You can now view your local game files:
 ![img](imgs/install_folder.png)
 > The _Lenna's Inception_ install folder
