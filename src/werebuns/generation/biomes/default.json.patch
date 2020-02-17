@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/monsterSpawners/werebun",
+    "value": true
+  }
+]

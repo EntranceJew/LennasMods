@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="scala-sdk-2.10.2" type="Scala">
+    <properties>
+      <language-level>Scala_2_10</language-level>
+      <compiler-classpath>
+        <root url="file://S:/steam/SteamApps/common/LennasInception/lib/scala-compiler.jar" />
+        <root url="file://S:/steam/SteamApps/common/LennasInception/lib/scala-library.jar" />
+        <root url="file://S:/steam/SteamApps/common/LennasInception/lib/scala-reflect.jar" />
+      </compiler-classpath>
+    </properties>
+    <CLASSES>
+      <root url="jar://S:/steam/SteamApps/common/LennasInception/lib/scala-actors-migration.jar!/" />
+      <root url="jar://S:/steam/SteamApps/common/LennasInception/lib/scala-actors.jar!/" />
+      <root url="jar://S:/steam/SteamApps/common/LennasInception/lib/scala-library.jar!/" />
+      <root url="jar://S:/steam/SteamApps/common/LennasInception/lib/scala-reflect.jar!/" />
+      <root url="jar://S:/steam/SteamApps/common/LennasInception/lib/scala-swing.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="https://www.scala-lang.org/api/2.10.2/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

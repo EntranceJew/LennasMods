@@ -1,0 +1,5 @@
+{
+  "rank": 80,
+  "factory" : ["net.bytten.inceptus.generator.dungeon.DungeonMonster", "WEREBUN"],
+  "location" : ["floor"]
+}

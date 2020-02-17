@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="nice">
+    <output-path>S:/steam/steamapps/common/LennasInception/assets</output-path>
+    <root id="archive" name="nice.jar">
+      <element id="module-output" name="nice" />
+    </root>
+  </artifact>
+</component>
