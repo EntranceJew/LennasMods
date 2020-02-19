@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lennasinception">
+    <CLASSES>
+      <root url="jar://S:/steam/SteamApps/common/LennasInception/assets/lennasinception.jar!/" />
+      <root url="jar://S:/steam/SteamApps/common/LennasInception/assets/advance.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="jar://S:/steam/SteamApps/common/LennasInception/assets/advance.jar!/" recursive="false" />
+  </library>
+</component>
