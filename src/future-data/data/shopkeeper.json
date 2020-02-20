@@ -1,0 +1,222 @@
+{
+	"inventory": [
+		{
+			"id": "ARROW",
+			"script": "scripts.story.misc.Shopping#BuyableItem",
+			"item": "ARROW",
+			"value": 16,
+			"disgust": false,
+			"name": "16 Arrows",
+			"desc": "Sharpest arrows $1 each.",
+			"sprite": {
+				"#comment": "by default inherit from item registry, otherwise, allow standard sprite definition"
+			},
+			"#comment": "the below value should be 16 but ammo can only be granted in 2s",
+			"giveMultiplier": 8
+		},
+		{
+			"id": "BOMB_AMMO",
+			"script": "scripts.story.misc.Shopping#BuyableItem",
+			"item": "BOMB_AMMO",
+			"value": 16,
+			"disgust": false,
+			"name": "16 Bombs",
+			"desc": "Explosives $1 each.",
+			"sprite": {
+				"#comment": "by default inherit from item registry, otherwise, allow standard sprite definition"
+			},
+			"#comment": "the below value should be 16 but ammo can only be granted in 2s",
+			"giveMultiplier": 8
+		},
+		{
+			"id": "CROSS_BOMB_AMMO",
+			"script": "scripts.story.misc.Shopping#BuyableItem",
+			"item": "CROSS_BOMB_AMMO",
+			"value": 16,
+			"disgust": false,
+			"name": "16 Cross Bombs",
+			"desc": "Special offer.",
+			"sprite": {
+				"#comment": "by default inherit from item registry, otherwise, allow standard sprite definition"
+			},
+			"#comment": "the below value should be 16 but ammo can only be granted in 2s",
+			"giveMultiplier": 8
+		},
+		{
+			"id": "MINE_AMMO",
+			"script": "scripts.story.misc.Shopping#BuyableItem",
+			"item": "MINE_AMMO",
+			"value": 16,
+			"disgust": false,
+			"name": "16 Mines",
+			"desc": "Special offer.",
+			"sprite": {
+				"#comment": "by default inherit from item registry, otherwise, allow standard sprite definition"
+			},
+			"#comment": "the below value should be 16 but ammo can only be granted in 2s",
+			"giveMultiplier": 8
+		},
+		{
+			"id": "KAMIKAZE_AMMO",
+			"script": "scripts.story.misc.Shopping#BuyableItem",
+			"item": "KAMIKAZE_AMMO",
+			"value": 16,
+			"disgust": false,
+			"name": "16 Gliders",
+			"desc": "Special offer.",
+			"sprite": {
+				"#comment": "by default inherit from item registry, otherwise, allow standard sprite definition"
+			},
+			"#comment": "the below value should be 16 but ammo can only be granted in 2s",
+			"giveMultiplier": 8
+		},
+		{
+			"id": "HEART",
+			"script": "scripts.story.misc.Shopping#BuyableItem",
+			"item": "KAMIKAZE_AMMO",
+			"value": 10,
+			"disgust": false,
+			"name": "Heal 8 Hearts",
+			"desc": "High-quality haggis made from free-range bat hearts.",
+			"sprite": {
+				"#comment": "by default inherit from item registry, otherwise, allow standard sprite definition"
+			},
+			"#comment": "the below value should be 16 but ammo can only be granted in 2s",
+			"giveMultiplier": 8
+		},
+		{
+			"#comment1": "the ID field will be used to form our OneOff story flag",
+			"id": "VENTRICLE",
+			"script": "scripts.story.misc.Shopping#OneOff",
+			"item": {
+				"id": "VENTRICLE",
+				"script": "scripts.story.misc.Shopping#BuyableItem",
+				"item": "VENTRICLE",
+				"value": 250,
+				"disgust": false,
+				"name": "Family Heirloom",
+				"desc": "Grandfather had two of these, but one was stolen.",
+				"sprite": {
+					"#comment": "by default inherit from item registry, otherwise, allow standard sprite definition"
+				},
+				"#comment": "the below value should be 16 but ammo can only be granted in 2s",
+				"giveMultiplier": 8
+			},
+			"#comment2": "we will inheirt most fields from our ITEM property so we omit them here, as a standard property of the base script"
+		},
+		{
+			"id": "HEALTH_POTION",
+			"script": "scripts.story.misc.Shopping#BuyablePotion",
+			"item": {
+				"#comment": "this data could be handled arbitrarily by the script, for other items it would be desirable to load either from the ItemRegistry if it were a string or default to forming a ShopBuyable -- but here we will just use it as config data to be transformed into an item reference via script",
+				"effect": "net.bytten.inceptus.logic.mob.effect.HealingEffect"
+			},
+			"value": 50,
+			"disgust": false,
+			"desc": "I don't know what this does.",
+			"sprite": {
+				"#comment": "by default inherit from item registry, otherwise, allow standard sprite definition"
+			}
+		},
+		{
+			"id": "OTHER_POTION",
+			"script": "scripts.story.misc.Shopping#BuyablePotion",
+			"item": {
+				"notEffect": [
+					"net.bytten.inceptus.logic.mob.effect.HealingEffect"
+				]
+			},
+			"value": 50,
+			"disgust": false,
+			"desc": "I don't know what this does.",
+			"sprite": {
+				"#comment": "by default inherit from item registry, otherwise, allow standard sprite definition"
+			}
+		},
+		{
+			"id": "TUNIC1",
+			"script": "scripts.story.misc.Shopping#OneOff",
+			"item": {
+				"script": "scripts.story.misc.Shopping#BuyableTunicWithDesc",
+				"item": {
+					"notEffect": [
+						"net.bytten.inceptus.logic.mob.effect.HealingEffect"
+					]
+				},
+				"value": 20,
+				"disgust": false,
+				"desc": "Second-hand, but in good condition.",
+				"sprite": {
+					"#comment": "by default inherit from item registry, otherwise, allow standard sprite definition"
+				},
+				"#comment": "the config here should be made available for most items for non-standard data"
+			},
+			"#comment2": "we will inheirt most fields from our ITEM property so we omit them here, as a standard property of the base script"
+		},
+		{
+			"id": "TUNIC2",
+			"script": "scripts.story.misc.Shopping#OneOff",
+			"item": {
+				"id": "TUNIC2",
+				"script": "scripts.story.misc.Shopping#BuyableTunicWithDesc",
+				"item": {
+					"#comment": "presuming the shopkeep inventory is evaluated in order, we just want this to not be like the previous ID",
+					"notLike": [
+						"TUNIC1"
+					]
+				},
+				"value": 1000,
+				"disgust": false,
+				"desc": "Brand new fashionable tunic."
+			}
+		},
+		{
+			"id": "PET",
+			"script": "scripts.story.misc.Shopping#OneOff",
+			"item": {
+				"id": "PET",
+				"script": "scripts.story.misc.Shopping#BuyablePet",
+				"#comment": "using similar formats to the droppools",
+				"item": [
+					[0.5, {
+						"item": {
+							"item": "PET",
+							"kind": "BAT",
+							"desc": "Widely feared by all kinds of monsters."
+						}
+					}],
+					[0.5, {
+						"item": {
+							"item": "PET",
+							"kind": "PUMPKIN",
+							"desc": "This one has a hard skin."
+						}
+					}],
+					{
+						"item": "PET",
+						"desc": "It's a feisty one."
+					}
+				],
+				"value": 60
+			}
+		},
+		{
+			"id": "BIKE",
+			"script": "scripts.story.misc.Shopping#OneOff",
+			"item": {
+				"#comment": "this nested ID is kind of redundant for OneOffs since their parent would need one and thus would inherit this one instead of the top level one, it just felt weird to leave them out",
+				"id": "BIKE",
+				"script": "scripts.story.misc.Shopping#UnbuyableBicycle",
+				"item": "BICYCLE",
+				"name": "Bicycle",
+				"desc": "You can't even carry that much money!",
+				"sprite": {
+					"sheet": "items/wideitems",
+					"row": 2,
+					"colors": ["0x000", "0x222", "0x500", "0x444"]
+				},
+				"value": 10000
+			}
+		}
+	]
+}

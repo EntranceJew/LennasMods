@@ -1,0 +1,294 @@
+{
+	"spacemaps": {
+		"0": [
+			[
+				"  x",
+				"xxx",
+				" x ",
+				" x ",
+				"xxx",
+				""
+			],
+			[
+				"xxx",
+				"xxx",
+				" x ",
+				" x ",
+				" x ",
+				""
+			],
+			[
+				"    xx",
+				"xxxxxx",
+				"x    x",
+				""
+			],
+			[
+				"  x  ",
+				"  x  ",
+				" xxx ",
+				"xxxxx",
+				""
+			],
+			[
+				"  x  ",
+				" xxx ",
+				"xxxxx",
+				"  x  ",
+				""
+			],
+			[
+				"xxxxx",
+				" xxx ",
+				"  x  ",
+				"  x  ",
+				""
+			],
+			[
+				"  x  ",
+				"xxxxx",
+				" xxx ",
+				"  x  ",
+				""
+			]
+		],
+		"1": [
+			[
+				"xxxx",
+				"xxxx",
+				"xxxx",
+				"xxx ",
+				""
+			],
+			[
+				"xx   xx",
+				"xxxxxxx",
+				"xx   xx",
+				""
+			],
+			[
+				"xxxx ",
+				"x  xx",
+				"xxxx ",
+				"x  xx",
+				""
+			]
+		],
+		"2": [
+			[
+				" xxxx ",
+				" xxxx ",
+				"xx  xx",
+				" xxxx ",
+				" xxxx ",
+				""
+			],
+			[
+				"    xx",
+				"  xxxx",
+				" xx xx",
+				"xx  x ",
+				"xx  x ",
+				"   xx ",
+				"   xx ",
+				""
+			],
+			[
+				"xx    ",
+				"xxxx  ",
+				"xx xx ",
+				" x  xx",
+				" x  xx",
+				" xx   ",
+				" xx   ",
+				""
+			],
+			[
+				"x x x",
+				"xxxxx",
+				" xxx ",
+				" xxx ",
+				" xxx ",
+				" xxx ",
+				""
+			],
+			[
+				"    x ",
+				" xx xx",
+				"xxxx x",
+				"xxxxxx",
+				" xxxx ",
+				""
+			]
+		],
+		"3": [
+			[
+				"xxxxx",
+				"xxxxx",
+				"xxxxx",
+				"xxxxx",
+				"xxxxx",
+				""
+			],
+			[
+				"   x   ",
+				"  xxx  ",
+				" xxxxx ",
+				"xxxxxxx",
+				" xxxxx ",
+				"  xxx  ",
+				"   x   ",
+				""
+			],
+			[
+				"x     x",
+				"xx   xx",
+				" xx xx ",
+				"  xxx  ",
+				" xxxxx ",
+				"xxxxxxx",
+				"  x x  ",
+				"  x x  ",
+				""
+			]
+		],
+		"4": [
+			[
+				" xxxxx x",
+				"xxxxxxxx",
+				"xxxxxxxx",
+				"xxxxxx x",
+				"   x    ",
+				""
+			],
+			[
+				"   xxx   ",
+				" xxxxxxx ",
+				"xxx  xxxx",
+				"xxx  xxxx",
+				" xxxxxxx ",
+				"   xxx   ",
+				""
+			],
+			[
+				"   x   ",
+				"  xxx  ",
+				" xxxxx ",
+				" xxxxx ",
+				" xx xx ",
+				"xx   xx",
+				"xx   xx",
+				" xxxxx ",
+				""
+			],
+			[
+				"   xx   ",
+				"  xxxx  ",
+				" xxxxxx ",
+				"xx xx xx",
+				"xxxxxxxx",
+				"  x  x  ",
+				""
+			]
+		],
+		"5": [
+			[
+				"   x   ",
+				"  xxx  ",
+				" xxxxx ",
+				" xxxxx ",
+				" xxxxx ",
+				" xxxxx ",
+				" xxxxx ",
+				"xx   xx",
+				"x     x",
+				""
+			],
+			[
+				"x         x",
+				"xx xxxxx xx",
+				" xxxxxxxxx ",
+				"  xx x xx  ",
+				"  xx x xx  ",
+				"  xx   xx  ",
+				"   xx xx   ",
+				""
+			]
+		],
+		"6": [
+			[
+				"x  x  x  x",
+				"x xxxxxx x",
+				"xxx xx xxx",
+				"xxxxxxxxxx",
+				" xxxxxxxx ",
+				"  x    x  ",
+				""
+			],
+			[
+				"   x  x   ",
+				"  xxxxxx  ",
+				" xx xx xx ",
+				"xxxxxxxxxx",
+				"x xxxxxx x",
+				"x x    x x",
+				""
+			],
+			[
+				"  xxxx ",
+				" xxxxxx",
+				"xxxxxx ",
+				"xxxxx  ",
+				"xxxxx  ",
+				"xxxxxx ",
+				" xxxxxx",
+				"  xxxx ",
+				""
+			]
+		],
+		"7": [
+			[
+				"    xxxx    ",
+				" xxxxxxxxxx ",
+				"xxxxxxxxxxxx",
+				"xxx  xx  xxx",
+				"xxxxxxxxxxxx",
+				"   xx  xx   ",
+				"  xx    xx  ",
+				""
+			],
+			[
+				"  xxxx  ",
+				" xxxxxx ",
+				"xxxxxxxx",
+				"xxxxxxxx",
+				"xxxxxxxx",
+				"xxxxxxxx",
+				" xxxxxx ",
+				"  xxxx  ",
+				""
+			],
+			[
+				"   xxxx   ",
+				"  xxxxxx  ",
+				" xx xx xx ",
+				"xxxxxxxxxx",
+				" x xxxx x ",
+				" xx    xx ",
+				"  xxxxxx  ",
+				"   xxxx   ",
+				""
+			],
+			[
+				"xx     xxxxxx",
+				"xx     xxxxxx",
+				"xx       xx  ",
+				"xx       xx  ",
+				"xx       xx  ",
+				"xxxxx  xxxxxx",
+				"xxxxxxxxxxxxx",
+				""
+			]
+		]
+	}
+}
