@@ -73,7 +73,7 @@
 		{
 			"id": "HEART",
 			"script": "scripts.story.misc.Shopping#BuyableItem",
-			"item": "KAMIKAZE_AMMO",
+			"item": "HEART",
 			"value": 10,
 			"disgust": false,
 			"name": "Heal 8 Hearts",
