@@ -149,11 +149,9 @@ If we refer back to the sword's `.json` file, we can see how the other informati
 ![img](imgs/gimp_swords_annotated.png)
 > Directional segments and frames indexed.
 
-All **directional** sprites are 4 times larger than a regular sprite because they contain graphics for each of the four cardinal direction, in order: **south**, **west**, **north**, **east** -- in the game data you might see these referred to as just **"s"**, **"w"**, **"n"**, **"e"**. If you're unlucky you might also see **"o"** for **orthogonal**, or **oh no, it's broken**.
+All **directional** sprite sheets contain exactly 10 frames for each cardinal direction of each animation row, in this order: **south**, **west**, **north**, **east** -- in the game data you might see these referred to as just **"s"**, **"w"**, **"n"**, **"e"**. If you're unlucky you might also see **"o"** for **orthogonal**, or **oh no, it's broken**.
 
-We can also see that the row marked with **0** has 5 frames of animation exactly like the `.json` file mentioned, and same with row **1** having just 1 frame. Every row in an image is going to either represent its own unique graphic or it will be an animation all by itself. Just remember that those offset values applies to everything in the current image, so if you should only be putting similar sized things on the same sheet anyway.
-
-The image itself has room for 10 frames for each direction, but right now we're not using them. The engine knows to ignore these because we told it how big each frame of animation is (48x48) so it can tell from the image resolution that it has up to 40x2 frames in it. It also knows that because it's directional, each direction only gets 10x2 frames. The only reason we have to specify how long our animation is, is because multiple rows have different durations -- and making the image large enough might make some frames appear blank.
+We can also see that the row marked with **0** has 5 frames of animation exactly like the `.json` file mentioned, and same with row **1** having just 1 frame. Every row in an image is going to either represent its own unique graphic or it will be an animation all by itself. Just remember that those offset values applies to everything in the current image, so if you should only be putting similar sized things on the same sheet anyway. We needed to specify the length of each individual row because each row can have a different number of animation frames, otherwise the blank sprites padding the gap between directions would be used.
 
 In order to fit with the base game style, we can open up the file `lennasinception/palette.png` and use colors from it when replacing colors in our sword:
 
