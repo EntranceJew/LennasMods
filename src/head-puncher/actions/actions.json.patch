@@ -1,0 +1,42 @@
+[
+  {
+    "op": "add",
+    "path": "/actions/leather_fists_punch",
+    "value": {
+      "sound": "bow_punch",
+      "shape": {
+        "n": [-0.625, -0.875, 1.25, 1.25],
+        "e": [-0.375, -0.625, 1.25, 1.25],
+        "s": [-0.625, -0.375, 1.25, 1.25],
+        "w": [-0.875, -0.625, 1.25, 1.25],
+        "o": [0, 0, 0, 0]
+      },
+      "hand": "both",
+      "sprite": {
+        "sheet": "items/leather-fists-use",
+        "row": 0,
+        "animation": "forwards",
+        "animationSlowness": 1
+      },
+      "burdenUser": true,
+      "avoidedByJumping": true,
+      "forceEnemyRecoil": true,
+      "playerSpriteRow": 8,
+      "holdToUse": false,
+      "pickUpItems": false,
+      "knockback": 2.5,
+      "playerSpriteSlowness": 2,
+      "blocking": {
+        "minArgument": 1,
+        "actions": [
+          "touch",
+          "thrown_touch",
+          "arrow_touch",
+          "projectile_book_touch",
+          "bow_punch",
+          "lasso_touch"
+        ]
+      }
+    },
+  }
+]

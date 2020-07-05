@@ -1,0 +1,13 @@
+[
+  {
+    "op": "add",
+    "path": "/grove/drops/0",
+    "value": [
+      100,
+      {
+        "item": "LEATHER_FISTS",
+        "onlyOne": true
+      }
+    ]
+  }
+]

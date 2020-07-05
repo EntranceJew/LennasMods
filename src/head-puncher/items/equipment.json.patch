@@ -1,0 +1,35 @@
+[
+  {
+    "op": "add",
+    "path": "/categories/equipment/-",
+    "value": {
+      "id": "LEATHER_FISTS",
+      "level": 0,
+      "name": "Leather Fists",
+      "description": "Perfect punchers for the practicing pugilist.",
+      "important": true,
+      "dropsFromSky": true,
+      "allowsMoveDuringUse": true,
+      "tutorial": "inventory",
+      "script": "net.bytten.inceptus.logic.item.HammerScript",
+      "sprite": {
+        "size": [0.5, 1.0],
+        "sheet": "items/leather-fists",
+        "row": 0,
+        "colors": ["0x000", "0x500", "0x200", "0x555"]
+      },
+      "replaces": ["LEATHER_FISTS"],
+      "pickUpSound": "pickup_generic",
+      "ai" : {
+        "type" : "sword"
+      },
+      "config": {
+        "primaryAction": {
+          "id": "leather_fists_punch",
+          "state": "swing",
+          "damage": 0.5
+        }
+      }
+    }
+  }
+]
